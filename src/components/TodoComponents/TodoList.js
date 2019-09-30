@@ -5,24 +5,14 @@ import React, {Component} from 'react';
 
 export default class TodoList extends Component{
 
-    constructor(){
-        super();
-
-    };
-
     render(){
         return(
             <div className="todoListComponent">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <input/>
-                <button>Submit</button>
-                <button>Clear All</button>
-
-
+                {/* <ul>
+                    {this.todo.map(e => (
+                        <li>{e.task}</li>
+                    ))}
+                </ul> */}
             </div>
         )
     };
