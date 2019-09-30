@@ -11,7 +11,20 @@ export default class TodoList extends Component{
     };
 
     render(){
-        return()
+        return(
+            <div className="todoListComponent">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <input/>
+                <button>Submit</button>
+                <button>Clear All</button>
+
+
+            </div>
+        )
     };
 
 }
