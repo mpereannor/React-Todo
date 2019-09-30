@@ -6,7 +6,7 @@ export default class TodoForm extends Component{
         return (
             <div>
                 <form>
-                <input type="text" placeholder="...todo" />
+                <input onClick={this.submitForm}type="text" placeholder="...todo" />
                 <button>Add Todo</button>
                 <button>Clear All</button>
                 </form>

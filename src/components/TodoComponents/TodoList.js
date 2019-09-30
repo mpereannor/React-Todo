@@ -9,7 +9,7 @@ export default class TodoList extends Component{
         return(
             <div className="todoListComponent">
                 {/* <ul>
-                    {this.todo.map(e => (
+                    {this.todoData.map(e => (
                         <li>{e.task}</li>
                     ))}
                 </ul> */}
